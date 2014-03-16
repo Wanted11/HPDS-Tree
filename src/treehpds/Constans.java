@@ -10,20 +10,16 @@ package treehpds;
  *
  * @author Aeros
  */
-public class ConstInt implements Constant{
+public class Constans implements Node{
     
-    private final int number;
+    private final double number;
 
-    public ConstInt(int number) {
+    public Constans(double number) {
         this.number = number;
     }
 
     @Override
-    public Object evaluate() {
+    public double evaluate() {
         return number;
     }
-
-    
-    
-    
 }

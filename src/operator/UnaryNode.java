@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-package treehpds;
+package operator;
 
 /**
  *
  * @author Aeros
  */
-public interface Constant {
-   
-    public Object evaluate();
+public class UnaryNode {
     
 }

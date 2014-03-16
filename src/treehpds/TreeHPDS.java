@@ -11,12 +11,20 @@ package treehpds;
  * @author Aeros
  */
 public class TreeHPDS {
+    
+    private Node root;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public TreeHPDS(Node root) {
+        this.root = root;
     }
+
+    public Node getRoot() {
+        return root;
+    }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
+    
     
 }
