@@ -12,7 +12,7 @@ import treehpds.Node;
  *
  * @author Aeros
  */
-public class BinaryNode {
+public abstract class BinaryNode implements Node{
     
     private Node leftNode;
     private Node rightNode;

@@ -12,20 +12,15 @@ import treehpds.Node;
  *
  * @author Aeros
  */
-public abstract class UnaryNode implements Node{
+public class TangNode extends UnaryNode{
 
-    private Node node;
-    
-    public UnaryNode(Node node) {
-        this.node = node;
+    public TangNode(Node node) {
+        super(node);
     }
-
-    public Node getNode() {
-        return node;
-    }
-
-    public void setNode(Node node) {
-        this.node = node;
+ 
+    @Override
+    public double evaluate(){
+        return 0.00;
     }
     
 }
