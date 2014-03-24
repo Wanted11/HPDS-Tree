@@ -4,23 +4,22 @@
  * and open the template in the editor.
  */
 
-package operator;
-
-import sintaxis.Node;
-import sintaxis.Value;
+package sintaxis;
 
 /**
  *
  * @author Aeros
  */
-public class AddNode extends BinaryNode{
+public abstract class  Constans implements Node{
+    
+    private final Value value;
 
-    public AddNode(Value leftNode, Value rightNode) {
-        super(leftNode, rightNode);
+    public Constans(Value value) {
+        this.value = value;
     }
-    
+
     @Override
-    public double evaluate() {
-    }
-    
+    public abstract double evaluate();
+
+   
 }

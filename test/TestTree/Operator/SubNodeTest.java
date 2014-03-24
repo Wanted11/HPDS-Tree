@@ -6,20 +6,18 @@
 
 package TestTree.Operator;
 
-import operator.AddNode;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import sintaxis.Constans;
-import sintaxis.Value;
 
 /**
  *
  * @author Aeros
  */
-public class AddNodeTest {
+public class SubNodeTest {
     
     @Test
-    public void addTest(){
-        assertEquals(5.00 , new AddNode(new Constans(new Value(3.00), new Value(3.00))).evaluate(),0.001);
+    public void subNode(){
+        assertEquals(5.00, new SubNode(new Constans(15.00),new Constans(10.00)).evaluate(),0.001);
     }
 }

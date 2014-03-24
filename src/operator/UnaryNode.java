@@ -6,10 +6,26 @@
 
 package operator;
 
+import sintaxis.Node;
+
 /**
  *
  * @author Aeros
  */
-public class UnaryNode {
+public abstract class UnaryNode implements Node{
+
+    private Node node;
+    
+    public UnaryNode(Node node) {
+        this.node = node;
+    }
+
+    public Node getNode() {
+        return node;
+    }
+
+    public void setNode(Node node) {
+        this.node = node;
+    }
     
 }

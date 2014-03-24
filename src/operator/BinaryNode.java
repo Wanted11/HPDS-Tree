@@ -6,35 +6,36 @@
 
 package operator;
 
-import treehpds.Node;
+import sintaxis.Node;
+import sintaxis.Value;
 
 /**
  *
  * @author Aeros
  */
-public class BinaryNode {
+public abstract class BinaryNode implements Node{
     
-    private Node leftNode;
-    private Node rightNode;
+    private final Value leftNode;
+    private final Value rightNode;
 
-    public BinaryNode(Node leftNode, Node rightNode) {
+    public BinaryNode(Value leftNode, Value rightNode) {
         this.leftNode = leftNode;
         this.rightNode = rightNode;
     }
 
     public Node getLeftNode() {
-        return leftNode;
+        return getLeftNode();
     }
 
-    public void setLeftNode(Node leftNode) {
-        this.leftNode = leftNode;
+    public void setLeftNode(Value leftNode) {
+        setLeftNode(leftNode);
     }
 
     public Node getRightNode() {
-        return rightNode;
+        return getRightNode();
     }
 
-    public void setRightNode(Node rightNode) {
-        this.rightNode = rightNode;
+    public void setRightNode(Value rightNode) {
+        setRightNode(rightNode);
     }
 }

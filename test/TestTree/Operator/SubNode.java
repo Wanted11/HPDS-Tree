@@ -4,21 +4,24 @@
  * and open the template in the editor.
  */
 
-package operator;
+package TestTree.Operator;
 
+import operator.BinaryNode;
 import sintaxis.Node;
 
 /**
  *
  * @author Aeros
  */
-public class MinusNode extends BinaryNode{
+class SubNode extends BinaryNode{
 
-    public MinusNode(Node leftNode, Node rightNode) {
-        super(leftNode, rightNode);
+    public SubNode(Node number1, Node number2) {
+        super(number1, number2);
     }
 
-    public double evaluate(){
+    @Override
+    public double evaluate() {
         return getLeftNode().evaluate()-getRightNode().evaluate();
     }
+    
 }

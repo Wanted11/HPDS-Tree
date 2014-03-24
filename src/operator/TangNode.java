@@ -4,22 +4,23 @@
  * and open the template in the editor.
  */
 
-package treehpds;
+package operator;
+
+import sintaxis.Node;
 
 /**
  *
  * @author Aeros
  */
-public class Constans implements Node{
-    
-    private final double number;
+public class TangNode extends UnaryNode{
 
-    public Constans(double number) {
-        this.number = number;
+    public TangNode(Node node) {
+        super(node);
     }
-
+ 
     @Override
-    public double evaluate() {
-        return number;
+    public double evaluate(){
+        return 0.00;
     }
+    
 }

@@ -3,7 +3,7 @@ package TestTree.Operator;
 import org.junit.Test;
 import operator.*;
 import static org.junit.Assert.assertEquals;
-import treehpds.Constans;
+import sintaxis.Constans;
 
 public class DivNodeTest {
     

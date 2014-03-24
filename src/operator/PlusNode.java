@@ -6,7 +6,7 @@
 
 package operator;
 
-import treehpds.Node;
+import sintaxis.Node;
 
 /**
  *
