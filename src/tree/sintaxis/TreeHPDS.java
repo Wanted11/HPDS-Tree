@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-package sintaxis;
+package tree.sintaxis;
+
+import tree.Node;
 
 /**
  *

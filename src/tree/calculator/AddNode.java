@@ -4,21 +4,24 @@
  * and open the template in the editor.
  */
 
-package operator;
+package tree.calculator;
 
-import sintaxis.Node;
+import tree.Node;
+import tree.Value;
+import tree.operator.BinaryNode;
 
 /**
  *
  * @author Aeros
  */
-public class MinusNode extends BinaryNode{
+public class AddNode extends BinaryNode{
 
-    public MinusNode(Node leftNode, Node rightNode) {
+    public AddNode(Value leftNode, Value rightNode) {
         super(leftNode, rightNode);
     }
-
-    public double evaluate(){
-        return getLeftNode().evaluate()-getRightNode().evaluate();
+    
+    public Value evaluate() {
+        return null;
     }
+    
 }

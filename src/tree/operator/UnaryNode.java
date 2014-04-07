@@ -4,28 +4,32 @@
  * and open the template in the editor.
  */
 
-package operator;
+package tree.operator;
 
-import sintaxis.Node;
+import tree.Node;
+import tree.Value;
 
 /**
  *
  * @author Aeros
  */
-public abstract class UnaryNode implements Node{
+public abstract class UnaryNode extends Node{
 
-    private Node node;
+    private Value node;
     
-    public UnaryNode(Node node) {
+    public UnaryNode(Value node) {
         this.node = node;
     }
 
-    public Node getNode() {
+    public Value getNode() {
         return node;
     }
 
-    public void setNode(Node node) {
+    public void setNode(Value node) {
         this.node = node;
     }
+
+    @Override
+    public abstract Value evaluate();
     
 }

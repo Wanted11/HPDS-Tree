@@ -4,23 +4,22 @@
  * and open the template in the editor.
  */
 
-package operator;
-
-import sintaxis.Node;
+package tree;
 
 /**
  *
  * @author Aeros
  */
-public class TangNode extends UnaryNode{
-
-    public TangNode(Node node) {
-        super(node);
-    }
- 
-    @Override
-    public double evaluate(){
-        return 0.00;
-    }
+public abstract class  Constans extends Node{
     
+    private final Value value;
+
+    public Constans(Value value) {
+        this.value = value;
+    }
+
+    @Override
+    public abstract Value evaluate();
+
+   
 }

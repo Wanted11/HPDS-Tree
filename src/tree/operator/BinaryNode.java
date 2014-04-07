@@ -4,16 +4,16 @@
  * and open the template in the editor.
  */
 
-package operator;
+package tree.operator;
 
-import sintaxis.Node;
-import sintaxis.Value;
+import tree.Node;
+import tree.Value;
 
 /**
  *
  * @author Aeros
  */
-public abstract class BinaryNode implements Node{
+public abstract class BinaryNode extends Node{
     
     private final Value leftNode;
     private final Value rightNode;
@@ -23,7 +23,7 @@ public abstract class BinaryNode implements Node{
         this.rightNode = rightNode;
     }
 
-    public Node getLeftNode() {
+    public Value getLeftNode() {
         return getLeftNode();
     }
 
@@ -31,7 +31,7 @@ public abstract class BinaryNode implements Node{
         setLeftNode(leftNode);
     }
 
-    public Node getRightNode() {
+    public Value getRightNode() {
         return getRightNode();
     }
 
