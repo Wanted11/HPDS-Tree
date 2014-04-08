@@ -9,7 +9,7 @@ package TestTree.Operator;
 import operator.PlusNode;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import treehpds.Constans;
+import node.Constans;
 
 /**
  *

@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package operator;
+package binarynode;
 
-import treehpds.Node;
+import node.Node;
 
 /**
  *

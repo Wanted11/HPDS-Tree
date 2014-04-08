@@ -6,6 +6,8 @@
 
 package treehpds;
 
+import node.Node;
+
 /**
  *
  * @author Aeros

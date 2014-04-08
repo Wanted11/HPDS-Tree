@@ -6,7 +6,9 @@
 
 package operator;
 
-import treehpds.Node;
+import unarynode.UnaryNode;
+import node.Node;
+
 
 /**
  *

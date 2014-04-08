@@ -6,8 +6,8 @@
 
 package TestTree.Operator;
 
-import operator.BinaryNode;
-import treehpds.Node;
+import binarynode.BinaryNode;
+import node.Node;
 
 /**
  *

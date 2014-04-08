@@ -8,7 +8,7 @@ package TestTree.Operator;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import treehpds.Constans;
+import node.Constans;
 
 /**
  *
